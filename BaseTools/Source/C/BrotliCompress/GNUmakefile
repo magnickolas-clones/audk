@@ -5,6 +5,7 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 MAKEROOT ?= ..
+CFLAGS += -Wno-vla-parameter
 
 APPNAME = BrotliCompress
 
